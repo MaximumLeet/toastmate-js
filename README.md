@@ -12,7 +12,13 @@ A lightweight, vanilla JS lib that allows simple, easily customizable toast mess
 
 ## How To
 
+I'll get NPM worked in soon :D
+
+Add the stylesheet and JS file to your page like so:
+
 ```html
+<link rel="stylesheet" href="path/to/toastmate/toastmate.css">
+<script src="path/to/toastmate/toastmate.js"></script>
 <script>
     // Create the toast message.
     // Currently there are two options available:
