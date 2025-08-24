@@ -12,7 +12,9 @@ A lightweight, vanilla JS lib that allows simple, easily customizable toast mess
 
 ## How To
 
-I'll get NPM worked in soon :D
+Now available on npm!
+
+npm install toastmate-js
 
 Add the stylesheet and JS file to your page like so:
 
