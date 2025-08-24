@@ -1,0 +1,50 @@
+.toastyMessage {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: white;
+    background: linear-gradient(to bottom, white, #eee);
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    transition: 0.5s;
+    animation: toastyFadeout 0.5s;
+    font-family: system-ui;
+    box-shadow: 0px 1px 5px 1px #eee;
+}
+
+.toastyMessage.toastyshow {
+    visibility: visible;
+    -webkit-animation: toastyFadein 0.5s;
+    animation: toastyFadein 0.5s;
+}
+
+.toastyMessage.toastyhide {
+    -webkit-animation: toastyFadeout 0.5s;
+    animation: toastyFadeout 0.5s;
+}
+
+@keyframes toastyFadein {
+    from {top: 0; opacity: 0;}
+    to {top: 20px; opacity: 0.9;}
+}
+@keyframes toastyFadeout {
+    from {top: 20px; opacity: 0.9;}
+    to {top: 0px; opacity: 0;}
+}
+
+@-webkit-keyframes toastyFadein {
+    from {top: 0; opacity: 0;}
+    to {top: 20px; opacity: 0.9;}
+}
+@-webkit-keyframes toastyFadeout {
+    from {top: 20px; opacity: 0.9;}
+    to {top: 0px; opacity: 0;}
+}

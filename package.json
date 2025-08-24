@@ -1,0 +1,19 @@
+{
+  "name": "toastmate-js",
+  "version": "1.0.0",
+  "description": "A lightweight, customizable toast notification library in vanilla JavaScript.",
+  "main": "toastmate.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "toast",
+    "notification",
+    "javascript",
+    "library",
+    "vanilla-js",
+    "toastmate"
+  ],
+  "author": "Joe Long",
+  "license": "MIT"
+}
