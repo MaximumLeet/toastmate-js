@@ -34,4 +34,13 @@ A lightweight, vanilla JS lib that allows simple, easily customizable toast mess
 
     // To remove a message, use hide
     toast.hide();
+
+    // Toastmate will throw an error if the toast container cannot be found,
+    // but you can also throw errors and warns manually:
+
+    // To manually show a warning, use doWarn
+    toast.doWarn("Your warning here")
+
+    // To manually show an error, use doError
+    toast.doError("Your error here")
 </script>
